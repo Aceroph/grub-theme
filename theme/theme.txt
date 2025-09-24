@@ -28,10 +28,10 @@ desktop-image: "background.png"
 }
 
 + boot_menu {
-    item_height = 94
-    item_spacing = 26
+    item_height = 60
+    item_spacing = 80
     
-    left = 50%-802
+    left = 50%-817
     top = 50%-292
     width = 1604
     height = 584
