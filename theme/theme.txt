@@ -5,9 +5,10 @@ desktop-image: "background.png"
     id="version"
     text="GNU GRUB version 2.0"
     font="Sono"
+    align="center"
     color="#4F5B66"
     left=50%-804
-    top=50%-384
+    top=50%-354
     width=333
     height=83
 }
@@ -15,9 +16,10 @@ desktop-image: "background.png"
 + label {
     id="__timeout__"
     font="Sono"
+    align="center"
     color="#4F5B66"
     left=50%+595
-    top=50%-384
+    top=50%-354
     width=209
     height=83
 }
