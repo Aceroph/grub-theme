@@ -28,13 +28,13 @@ desktop-image: "background.png"
 
 + boot_menu {
     item_font="Sono 24"
-    item_height=94
+    item_height=47
     item_spacing=26
-    item_padding=5
+    item_padding=0
     
-    left=50%-802
+    left=50%-803
     top=50%-292
-    width=1604
+    width=1506
     height=584
 
     item_color="#4F5B66"
@@ -42,6 +42,7 @@ desktop-image: "background.png"
     item_pixmap_style="unselected_*.png"
     selected_item_pixmap_style="selected_*.png"
 
+    scrollbar=true
     scrollbar_frame="scrollbar_*.png"
     scrollbar_thumb="thumb_*.png"
     scrollbar_thumb_overlay=true
