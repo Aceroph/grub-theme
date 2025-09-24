@@ -2,7 +2,6 @@ title-text: ""
 desktop-image: "background.png"
 
 + label {
-    id = "version"
     text = "GNU GRUB version 2.0"
     font = "Sono 24"
     align = "center"
@@ -14,22 +13,27 @@ desktop-image: "background.png"
     height = 83
 }
 
-+ label {
++ progress_bar {
     id = "__timeout__"
-    text = "Boot in %ds"
-    font = "Sono 24"
-    align = "center"
-    color = "#4F5B66"
 
-    left = 50%+595
-    top = 50%-360
-    width = 209
+    bar_style = "pane_*.png"
+    highlight_style = "progress_*.png"
+    highlight_overlay = true
+
+    font = "Sono 24"
+    color = "#4F5B66"
+    text = "@TIMEOUT_NOTIFICATION_LONG@"
+
+    left = 50%-438
+    top = 50%-370
+    width = 1237
     height = 83
 }
 
 + boot_menu {
+    font = "Sono 24"
     item_height = 60
-    item_spacing = 80
+    item_spacing = 72
     
     left = 50%-817
     top = 50%-292
@@ -38,11 +42,11 @@ desktop-image: "background.png"
 
     item_color = "#4F5B66"
     selected_item_color = "#DDE1E6"
-    item_pixmap_style = "unselected_*.png"
-    selected_item_pixmap_style = "selected_*.png"
+    item_pixmap_style = "pane_*.png"
+    selected_item_pixmap_style = "accent_pane_*.png"
 
     scrollbar = true
     scrollbar_width = 35
-    scrollbar_frame = "scrollbar_*.png"
-    scrollbar_thumb = "thumb_*.png"
+    scrollbar_frame = "pane_*.png"
+    scrollbar_thumb = "accent_pane_*.png"
 }
