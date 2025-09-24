@@ -45,7 +45,4 @@ desktop-image: "background.png"
     scrollbar_width = 35
     scrollbar_frame = "scrollbar_*.png"
     scrollbar_thumb = "thumb_*.png"
-    scrollbar_thumb_overlay = true
-    scrollbar_slice = "west"
-    scrollbar_right_pad = 30
 }
