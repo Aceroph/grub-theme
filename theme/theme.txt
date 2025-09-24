@@ -1,0 +1,36 @@
++ vbox {
+    id="panel"
+    x=126
+    y=126
+    width=100%-352
+    height=100%-352
+
+    + hbox {
+        id="header"
+        x=30
+        y=30
+        width=100%-60
+        height=84
+
+        + label {
+            id="version"
+            text="GNU GRUB version 2.0"
+            font="Sono"
+            color="#4F5B66"
+        }
+
+        + label {
+            id="__timeout__"
+            font="Sono"
+            color="#4F5B66"
+        }
+    }
+
+    + boot_menu {
+        item_font="Sono"
+        item_color="#4F5B66"
+        selected_item_color="#DDE1E6"
+        item_height=94
+        item_width=100%-60
+    }
+}
