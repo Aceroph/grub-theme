@@ -1,36 +1,35 @@
-+ vbox {
-    id="panel"
-    x=126
-    y=126
-    width=100%-352
-    height=100%-352
+title-text: ""
+desktop-image: "background.png"
 
-    + hbox {
-        id="header"
-        x=30
-        y=30
-        width=100%-60
-        height=84
++ label {
+    id="version"
+    text="GNU GRUB version 2.0"
+    font="Sono"
+    color="#4F5B66"
+    left=50%-804
+    top=50%-384
+    width=333
+    height=83
+}
 
-        + label {
-            id="version"
-            text="GNU GRUB version 2.0"
-            font="Sono"
-            color="#4F5B66"
-        }
++ label {
+    id="__timeout__"
+    font="Sono"
+    color="#4F5B66"
+    left=50%+595
+    top=50%-384
+    width=209
+    height=83
+}
 
-        + label {
-            id="__timeout__"
-            font="Sono"
-            color="#4F5B66"
-        }
-    }
-
-    + boot_menu {
-        item_font="Sono"
-        item_color="#4F5B66"
-        selected_item_color="#DDE1E6"
-        item_height=94
-        item_width=100%-60
-    }
++ boot_menu {
+    item_font="Sono"
+    item_color="#4F5B66"
+    selected_item_color="#DDE1E6"
+    item_height=94
+    item_width=1545
+    left=50%-802
+    top=50%-292
+    width=1604
+    height=584
 }
