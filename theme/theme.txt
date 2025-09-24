@@ -4,7 +4,7 @@ desktop-image: "background.png"
 + label {
     id="version"
     text="GNU GRUB version 2.0"
-    font="Sono 24"
+    font="Sono 12"
     align="center"
     color="#4F5B66"
     left=50%-804
@@ -15,7 +15,7 @@ desktop-image: "background.png"
 
 + label {
     id="__timeout__"
-    font="Sono 24"
+    font="Sono 12"
     align="center"
     color="#4F5B66"
     left=50%+595
@@ -25,13 +25,15 @@ desktop-image: "background.png"
 }
 
 + boot_menu {
-    item_font="Sono 24"
+    item_font="Sono 12"
     item_color="#4F5B66"
     selected_item_color="#DDE1E6"
     item_height=94
-    item_width=1545
+    item_spacing=26
     left=50%-802
     top=50%-292
     width=1604
     height=584
+    item_pixmap_style="unselected_*.png"
+    selected_item_pixmap_style="selected_*.png"
 }
