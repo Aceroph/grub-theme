@@ -21,11 +21,12 @@ desktop-image: "background.png"
     highlight_overlay = true
 
     font = "Sono 24"
-    color = "#4F5B66"
-    text = "@TIMEOUT_NOTIFICATION_LONG@"
+    text_color = "#4F5B66"
+    text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+    text_align = "left"
 
     left = 50%-438
-    top = 50%-370
+    top = 50%-385
     width = 1237
     height = 83
 }
