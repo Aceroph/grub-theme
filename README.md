@@ -2,8 +2,8 @@
 A light & modern looking grub theme.
 
 ## Preview
-
-I will provide a screenshot sometime.. I am NOT putting a picture from my phone.
+![Preview](./preview.png)
+<sub>Made in figma
 
 ## Installation
 
@@ -25,7 +25,6 @@ GRUB_THEME=/boot/grub/themes/grub-theme/theme.txt
 ```
 
 ### On NixOS
-
 1. Add the input to your flake
 ```diff
 # flake.nix
